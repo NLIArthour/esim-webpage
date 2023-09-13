@@ -5,10 +5,6 @@ import { FaBars } from "react-icons/fa"
 import { FaXmark } from "react-icons/fa6"
 import useMediaQuery from "../hooks/useMediaQuery"
 import useDarkMode from "../hooks/useDarkMode"
-import Logo from "../assets/Esim_Direct_Logo.svg"
-import LogoLong from "../assets/Logo_With_Tagline.svg"
-import LogoDark from "../assets/Esim_Direct_Logo_Dark.svg"
-import LogoLongDark from "../assets/Logo_With_Tagline_Dark.svg"
 
 const Navbar = ({ isTopOfPage }) => {
   const flexBetween = "flex items-center justify-between"
@@ -31,6 +27,9 @@ const Navbar = ({ isTopOfPage }) => {
   ]
   const [theme, setTheme] = useDarkMode()
 
+  const longLogo = "content-logoLongDark dark:content-logoLong"
+  const shortLogo = "content-logoDark dark:content-logo"
+
   return (
     <>
       <nav
@@ -39,17 +38,11 @@ const Navbar = ({ isTopOfPage }) => {
         <div className={`mx-auto w-3/4 py-6 ${flexBetween}`}>
           <div className="basis-3/4 flex gap-4 items-center">
             <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              {theme === "dark" ? (
-                <img
-                  src={isAboveMediumScreens ? LogoLong : Logo}
-                  className="max-h-[80px]"
-                />
-              ) : (
-                <img
-                  src={isAboveMediumScreens ? LogoLongDark : LogoDark}
-                  className="max-h-[80px]"
-                />
-              )}
+              <img
+                className={`max-h-[80px] ${
+                  isAboveMediumScreens ? longLogo : shortLogo
+                }`}
+              />
             </Link>
           </div>
           {isAboveMediumScreens ? (

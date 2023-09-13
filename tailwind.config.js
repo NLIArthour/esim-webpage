@@ -30,6 +30,8 @@ export default {
       content: {
         logo: "url('./assets/Esim_Direct_Logo.svg')",
         logoDark: "url('./assets/Esim_Direct_Logo_Dark.svg')",
+        logoLong: "url('./assets/Logo_With_Tagline.svg')",
+        logoLongDark: "url('./assets/Logo_With_Tagline_Dark.svg')",
       },
     },
     screens: {
