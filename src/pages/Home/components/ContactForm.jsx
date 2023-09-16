@@ -23,7 +23,7 @@ const ContactForm = () => {
         <form
           target="_blank"
           onSubmit={onSubmit}
-          action="https://formsubmit.co/info@esimdirecct.net"
+          action="https://formsubmit.co/info@esimdirect.net"
           method="POST"
         >
           <input
