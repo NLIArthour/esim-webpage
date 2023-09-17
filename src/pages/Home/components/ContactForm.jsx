@@ -29,11 +29,14 @@ const ContactForm = () => {
           <input
             className={inputStyles}
             type="text"
+            name="name"
+            id="name"
             placeholder="NAME"
             {...register("name", {
               required: true,
               maxLength: 100,
             })}
+            autoComplete="name"
           />
           {errors.name && (
             <p className="mt-1 text-primary-50">
@@ -44,12 +47,15 @@ const ContactForm = () => {
 
           <input
             className={inputStyles}
-            type="text"
+            type="email"
+            name="email"
+            id="email"
             placeholder="EMAIL"
             {...register("email", {
               required: true,
               pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
             })}
+            autoComplete="email"
           />
           {errors.email && (
             <p className="mt-1 text-primary-50">
@@ -61,12 +67,15 @@ const ContactForm = () => {
           <textarea
             className={inputStyles}
             placeholder="MESSAGE"
+            id="message"
+            name="message"
             rows={4}
             cols={50}
             {...register("message", {
               required: true,
               maxLength: 2000,
             })}
+            autoComplete="off"
           />
           {errors.message && (
             <p className="mt-1 text-primary-50">

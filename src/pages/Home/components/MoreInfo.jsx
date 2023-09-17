@@ -13,18 +13,18 @@ const MoreInfo = () => {
         )}
         <div className="md:basis-2/3">
           <p className="text-2xl fontfamily-montserrat font-bold">
-            Need more info? Then keep reading.
+            Need more info? Keep reading.
           </p>
           <p className="text-lg pt-6 text-justify">
             Most mobile carriers charge extra for using your phone abroad. And
             the charges are never small. The easiest way to avoid it used to be
             a purchase of a sim card in your destination country. You would then
             just pop the local sim card in your phone and are ready to go. That
-            comes with some drawbacks. You will loose your phone number for one.
-            Once you swap sim cards your original phone number will be offline
+            comes with some drawbacks. You will lose your phone number for one.
+            Once you swap sim cards, your original phone number will be offline,
             so your friends cannot call you on that number. If you have a dual
             sim phone, you can use both at the same time. But you still need to
-            but the sim locally and not while seating on your sofa at home. In
+            buy the sim locally and not while sitting on your sofa at home. In
             many destinations you also need to register your local sim and if
             you don't speak the language you may find that difficult.
           </p>

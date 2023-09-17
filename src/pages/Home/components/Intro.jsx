@@ -15,7 +15,7 @@ const Intro = () => {
           </p>
           <p className=" text-lg">
             Instead of using data from your current carrier, you buy a bundle
-            from local provider.
+            from a local provider.
           </p>
           <p className=" text-lg">
             {" "}
