@@ -17,9 +17,9 @@ const CountryList = () => {
         ))}
       </div>
       <div className="flex justify-center relative">
-        <button className="bg-primary-500 text-gray-50 font-bold px-4 py-2 rounded hover:bg-secondary-500 w-[150px] z-10">
+        {/* <button className="bg-primary-500 text-gray-50 font-bold px-4 py-2 rounded hover:bg-secondary-500 w-[150px] z-10">
           <a href="">See More</a>
-        </button>
+        </button> */}
       </div>
     </>
   )

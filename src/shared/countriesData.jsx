@@ -2,7 +2,7 @@ import eurIcon from "../assets/europe_icon.svg"
 import usaIcon from "../assets/usa_icon.svg"
 import chnIcon from "../assets/china_icon.svg"
 import ausIcon from "../assets/australia_icon.svg"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 export const countryArr = [
   {
