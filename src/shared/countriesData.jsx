@@ -9,32 +9,24 @@ export const countryArr = [
     title: "Europe",
     short: "EU",
     icon: eurIcon,
-    link: (
-      <a href="https://www.getnomad.app/?rfsn=7643611.afb60e">Click here</a>
-    ),
+    link: "https://www.getnomad.app/?rfsn=7643611.afb60e",
   },
   {
     title: "USA",
     short: "US",
     icon: usaIcon,
-    link: (
-      <a href="https://www.getnomad.app/?rfsn=7643611.afb60e">Click here</a>
-    ),
+    link: "https://www.getnomad.app/?rfsn=7643611.afb60e",
   },
   {
     title: "China",
     short: "CN",
     icon: chnIcon,
-    link: (
-      <a href="https://www.getnomad.app/?rfsn=7643611.afb60e">Click here</a>
-    ),
+    link: "https://www.getnomad.app/?rfsn=7643611.afb60e",
   },
   {
     title: "Australia",
     short: "AU",
     icon: ausIcon,
-    link: (
-      <a href="https://www.getnomad.app/?rfsn=7643611.afb60e">Click here</a>
-    ),
+    link: "https://www.getnomad.app/?rfsn=7643611.afb60e",
   },
 ]
